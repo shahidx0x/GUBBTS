@@ -1,5 +1,6 @@
+import { Maps } from "../../components/Maps/Maps";
+
 export const Dashbord = () => {
-  const position = [51.505, -0.09];
   return (
     <>
       <section class="relative bg-white">
@@ -42,19 +43,8 @@ export const Dashbord = () => {
           </div>
         </div>
       </section>
-      <div className="flex">
-        <div>
-          <ul>
-            <li>
-              <h2>View</h2>
-            </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-        <div></div>
+      <div>
+        <Maps />
       </div>
     </>
   );
